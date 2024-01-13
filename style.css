@@ -1,0 +1,102 @@
+ul{
+    list-style-type: none; 
+  }
+li {
+float: left;
+}
+li a {
+display: block;
+color: rgb(45, 19, 212);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size:22px;
+position: sticky;
+
+}
+li a:hover {
+background-color:whitesmoke;
+border-radius: 20px;
+}   
+
+.div1
+		{
+			background-color: pink;
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 20px;
+			padding: 20px;
+      /* padding-left: 10px; */ 
+		}
+		.div2
+		{
+			background-color: powderblue;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 0px;
+			padding: 10px;
+		}
+    /* img {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    } */
+    .row1
+    {
+      /* display: -ms-flexbox; */
+      display: flex;
+      
+      margin: 5%;
+      border: 10px solid salmon;
+      
+    }
+    .column
+    {
+      
+      max-width: 26%;
+      padding:  0 4px ;
+      background-color:royalblue ;
+    }
+    /* #house
+    {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    } */
+    #image:hover
+    {
+      scale: 1.1;
+    }
+    #image
+    {
+      transition: 1.1;
+    }
+    .row2
+    {
+      position: relative;
+      display: flex;
+      gap: 2%;    
+      margin: 5%;
+    }
+    .col:hover
+    {
+      scale: 1.1;
+      
+    }
+.col
+    {
+      transform: 1.1;
+      box-shadow: 5px 5px 5px 5px gray;
+      border: 5px solid wheat;
+    }
+    .hide
+    {
+      display: none;
+    }
+    /* .hide {
+      display: none;
+    }
+        
+    .myDIV:hover + .hide {
+      display: block;
+      color: red;
+    } */
